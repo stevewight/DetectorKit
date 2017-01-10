@@ -8,12 +8,62 @@
 
 /* Begin PBXBuildFile section */
 		AA0CD7AE1E2541D000FCB938 /* DetectorKit.h in Headers */ = {isa = PBXBuildFile; fileRef = AA0CD7AC1E2541D000FCB938 /* DetectorKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA0CD7D81E2544EC00FCB938 /* BaseDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0CD7B71E2544EC00FCB938 /* BaseDetector.swift */; };
+		AA0CD7D91E2544EC00FCB938 /* FaceDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0CD7B81E2544EC00FCB938 /* FaceDetector.swift */; };
+		AA0CD7DA1E2544EC00FCB938 /* TextDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0CD7B91E2544EC00FCB938 /* TextDetector.swift */; };
+		AA0CD7DB1E2544EC00FCB938 /* Masker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0CD7BB1E2544EC00FCB938 /* Masker.swift */; };
+		AA0CD7DC1E2544EC00FCB938 /* MaskFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0CD7BC1E2544EC00FCB938 /* MaskFeature.swift */; };
+		AA0CD7DD1E2544EC00FCB938 /* BlendMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0CD7BE1E2544EC00FCB938 /* BlendMask.swift */; };
+		AA0CD7DE1E2544EC00FCB938 /* GradientMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0CD7BF1E2544EC00FCB938 /* GradientMask.swift */; };
+		AA0CD7DF1E2544EC00FCB938 /* MaskFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0CD7C01E2544EC00FCB938 /* MaskFilter.swift */; };
+		AA0CD7E01E2544EC00FCB938 /* OverComp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0CD7C11E2544EC00FCB938 /* OverComp.swift */; };
+		AA0CD7E11E2544EC00FCB938 /* RadialGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0CD7C21E2544EC00FCB938 /* RadialGradient.swift */; };
+		AA0CD7E21E2544EC00FCB938 /* RectGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0CD7C31E2544EC00FCB938 /* RectGradient.swift */; };
+		AA0CD7E31E2544EC00FCB938 /* Crystalizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0CD7C51E2544EC00FCB938 /* Crystalizer.swift */; };
+		AA0CD7E41E2544EC00FCB938 /* ObscureFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0CD7C61E2544EC00FCB938 /* ObscureFilter.swift */; };
+		AA0CD7E51E2544EC00FCB938 /* Pixelator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0CD7C71E2544EC00FCB938 /* Pixelator.swift */; };
+		AA0CD7E61E2544EC00FCB938 /* BaseFramer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0CD7C91E2544EC00FCB938 /* BaseFramer.swift */; };
+		AA0CD7E71E2544EC00FCB938 /* FaceFramer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0CD7CA1E2544EC00FCB938 /* FaceFramer.swift */; };
+		AA0CD7E81E2544EC00FCB938 /* TextFramer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0CD7CB1E2544EC00FCB938 /* TextFramer.swift */; };
+		AA0CD7E91E2544EC00FCB938 /* CoordConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0CD7CD1E2544EC00FCB938 /* CoordConverter.swift */; };
+		AA0CD7EA1E2544EC00FCB938 /* BaseObscure.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0CD7CF1E2544EC00FCB938 /* BaseObscure.swift */; };
+		AA0CD7EB1E2544EC00FCB938 /* FaceObscure.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0CD7D01E2544EC00FCB938 /* FaceObscure.swift */; };
+		AA0CD7EC1E2544EC00FCB938 /* TextObscure.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0CD7D11E2544EC00FCB938 /* TextObscure.swift */; };
+		AA0CD7ED1E2544EC00FCB938 /* SpinAnimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0CD7D41E2544EC00FCB938 /* SpinAnimate.swift */; };
+		AA0CD7EE1E2544EC00FCB938 /* BaseFrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0CD7D51E2544EC00FCB938 /* BaseFrameView.swift */; };
+		AA0CD7EF1E2544EC00FCB938 /* BoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0CD7D61E2544EC00FCB938 /* BoxView.swift */; };
+		AA0CD7F01E2544EC00FCB938 /* RadialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0CD7D71E2544EC00FCB938 /* RadialView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AA0CD7A91E2541D000FCB938 /* DetectorKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DetectorKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA0CD7AC1E2541D000FCB938 /* DetectorKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetectorKit.h; sourceTree = "<group>"; };
 		AA0CD7AD1E2541D000FCB938 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA0CD7B71E2544EC00FCB938 /* BaseDetector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseDetector.swift; sourceTree = "<group>"; };
+		AA0CD7B81E2544EC00FCB938 /* FaceDetector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceDetector.swift; sourceTree = "<group>"; };
+		AA0CD7B91E2544EC00FCB938 /* TextDetector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextDetector.swift; sourceTree = "<group>"; };
+		AA0CD7BB1E2544EC00FCB938 /* Masker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Masker.swift; sourceTree = "<group>"; };
+		AA0CD7BC1E2544EC00FCB938 /* MaskFeature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaskFeature.swift; sourceTree = "<group>"; };
+		AA0CD7BE1E2544EC00FCB938 /* BlendMask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlendMask.swift; sourceTree = "<group>"; };
+		AA0CD7BF1E2544EC00FCB938 /* GradientMask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientMask.swift; sourceTree = "<group>"; };
+		AA0CD7C01E2544EC00FCB938 /* MaskFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaskFilter.swift; sourceTree = "<group>"; };
+		AA0CD7C11E2544EC00FCB938 /* OverComp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverComp.swift; sourceTree = "<group>"; };
+		AA0CD7C21E2544EC00FCB938 /* RadialGradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadialGradient.swift; sourceTree = "<group>"; };
+		AA0CD7C31E2544EC00FCB938 /* RectGradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectGradient.swift; sourceTree = "<group>"; };
+		AA0CD7C51E2544EC00FCB938 /* Crystalizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Crystalizer.swift; sourceTree = "<group>"; };
+		AA0CD7C61E2544EC00FCB938 /* ObscureFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObscureFilter.swift; sourceTree = "<group>"; };
+		AA0CD7C71E2544EC00FCB938 /* Pixelator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pixelator.swift; sourceTree = "<group>"; };
+		AA0CD7C91E2544EC00FCB938 /* BaseFramer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseFramer.swift; sourceTree = "<group>"; };
+		AA0CD7CA1E2544EC00FCB938 /* FaceFramer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceFramer.swift; sourceTree = "<group>"; };
+		AA0CD7CB1E2544EC00FCB938 /* TextFramer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFramer.swift; sourceTree = "<group>"; };
+		AA0CD7CD1E2544EC00FCB938 /* CoordConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordConverter.swift; sourceTree = "<group>"; };
+		AA0CD7CF1E2544EC00FCB938 /* BaseObscure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseObscure.swift; sourceTree = "<group>"; };
+		AA0CD7D01E2544EC00FCB938 /* FaceObscure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceObscure.swift; sourceTree = "<group>"; };
+		AA0CD7D11E2544EC00FCB938 /* TextObscure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextObscure.swift; sourceTree = "<group>"; };
+		AA0CD7D41E2544EC00FCB938 /* SpinAnimate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinAnimate.swift; sourceTree = "<group>"; };
+		AA0CD7D51E2544EC00FCB938 /* BaseFrameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseFrameView.swift; sourceTree = "<group>"; };
+		AA0CD7D61E2544EC00FCB938 /* BoxView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoxView.swift; sourceTree = "<group>"; };
+		AA0CD7D71E2544EC00FCB938 /* RadialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadialView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,10 +96,115 @@
 		AA0CD7AB1E2541D000FCB938 /* DetectorKit */ = {
 			isa = PBXGroup;
 			children = (
+				AA0CD7B51E2544EC00FCB938 /* Models */,
+				AA0CD7D21E2544EC00FCB938 /* Views */,
 				AA0CD7AC1E2541D000FCB938 /* DetectorKit.h */,
 				AA0CD7AD1E2541D000FCB938 /* Info.plist */,
 			);
 			path = DetectorKit;
+			sourceTree = "<group>";
+		};
+		AA0CD7B51E2544EC00FCB938 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AA0CD7B61E2544EC00FCB938 /* Detectors */,
+				AA0CD7BA1E2544EC00FCB938 /* Filters */,
+				AA0CD7C81E2544EC00FCB938 /* Framers */,
+				AA0CD7CC1E2544EC00FCB938 /* Helpers */,
+				AA0CD7CE1E2544EC00FCB938 /* Obfuscators */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AA0CD7B61E2544EC00FCB938 /* Detectors */ = {
+			isa = PBXGroup;
+			children = (
+				AA0CD7B71E2544EC00FCB938 /* BaseDetector.swift */,
+				AA0CD7B81E2544EC00FCB938 /* FaceDetector.swift */,
+				AA0CD7B91E2544EC00FCB938 /* TextDetector.swift */,
+			);
+			path = Detectors;
+			sourceTree = "<group>";
+		};
+		AA0CD7BA1E2544EC00FCB938 /* Filters */ = {
+			isa = PBXGroup;
+			children = (
+				AA0CD7BB1E2544EC00FCB938 /* Masker.swift */,
+				AA0CD7BC1E2544EC00FCB938 /* MaskFeature.swift */,
+				AA0CD7BD1E2544EC00FCB938 /* MaskFilters */,
+				AA0CD7C41E2544EC00FCB938 /* ObscureFilters */,
+			);
+			path = Filters;
+			sourceTree = "<group>";
+		};
+		AA0CD7BD1E2544EC00FCB938 /* MaskFilters */ = {
+			isa = PBXGroup;
+			children = (
+				AA0CD7BE1E2544EC00FCB938 /* BlendMask.swift */,
+				AA0CD7BF1E2544EC00FCB938 /* GradientMask.swift */,
+				AA0CD7C01E2544EC00FCB938 /* MaskFilter.swift */,
+				AA0CD7C11E2544EC00FCB938 /* OverComp.swift */,
+				AA0CD7C21E2544EC00FCB938 /* RadialGradient.swift */,
+				AA0CD7C31E2544EC00FCB938 /* RectGradient.swift */,
+			);
+			path = MaskFilters;
+			sourceTree = "<group>";
+		};
+		AA0CD7C41E2544EC00FCB938 /* ObscureFilters */ = {
+			isa = PBXGroup;
+			children = (
+				AA0CD7C51E2544EC00FCB938 /* Crystalizer.swift */,
+				AA0CD7C61E2544EC00FCB938 /* ObscureFilter.swift */,
+				AA0CD7C71E2544EC00FCB938 /* Pixelator.swift */,
+			);
+			path = ObscureFilters;
+			sourceTree = "<group>";
+		};
+		AA0CD7C81E2544EC00FCB938 /* Framers */ = {
+			isa = PBXGroup;
+			children = (
+				AA0CD7C91E2544EC00FCB938 /* BaseFramer.swift */,
+				AA0CD7CA1E2544EC00FCB938 /* FaceFramer.swift */,
+				AA0CD7CB1E2544EC00FCB938 /* TextFramer.swift */,
+			);
+			path = Framers;
+			sourceTree = "<group>";
+		};
+		AA0CD7CC1E2544EC00FCB938 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				AA0CD7CD1E2544EC00FCB938 /* CoordConverter.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		AA0CD7CE1E2544EC00FCB938 /* Obfuscators */ = {
+			isa = PBXGroup;
+			children = (
+				AA0CD7CF1E2544EC00FCB938 /* BaseObscure.swift */,
+				AA0CD7D01E2544EC00FCB938 /* FaceObscure.swift */,
+				AA0CD7D11E2544EC00FCB938 /* TextObscure.swift */,
+			);
+			path = Obfuscators;
+			sourceTree = "<group>";
+		};
+		AA0CD7D21E2544EC00FCB938 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AA0CD7D31E2544EC00FCB938 /* Animations */,
+				AA0CD7D51E2544EC00FCB938 /* BaseFrameView.swift */,
+				AA0CD7D61E2544EC00FCB938 /* BoxView.swift */,
+				AA0CD7D71E2544EC00FCB938 /* RadialView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AA0CD7D31E2544EC00FCB938 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				AA0CD7D41E2544EC00FCB938 /* SpinAnimate.swift */,
+			);
+			path = Animations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +287,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA0CD7EE1E2544EC00FCB938 /* BaseFrameView.swift in Sources */,
+				AA0CD7E21E2544EC00FCB938 /* RectGradient.swift in Sources */,
+				AA0CD7D91E2544EC00FCB938 /* FaceDetector.swift in Sources */,
+				AA0CD7E61E2544EC00FCB938 /* BaseFramer.swift in Sources */,
+				AA0CD7DD1E2544EC00FCB938 /* BlendMask.swift in Sources */,
+				AA0CD7EA1E2544EC00FCB938 /* BaseObscure.swift in Sources */,
+				AA0CD7DA1E2544EC00FCB938 /* TextDetector.swift in Sources */,
+				AA0CD7EB1E2544EC00FCB938 /* FaceObscure.swift in Sources */,
+				AA0CD7DB1E2544EC00FCB938 /* Masker.swift in Sources */,
+				AA0CD7EC1E2544EC00FCB938 /* TextObscure.swift in Sources */,
+				AA0CD7E11E2544EC00FCB938 /* RadialGradient.swift in Sources */,
+				AA0CD7E71E2544EC00FCB938 /* FaceFramer.swift in Sources */,
+				AA0CD7E01E2544EC00FCB938 /* OverComp.swift in Sources */,
+				AA0CD7F01E2544EC00FCB938 /* RadialView.swift in Sources */,
+				AA0CD7D81E2544EC00FCB938 /* BaseDetector.swift in Sources */,
+				AA0CD7E51E2544EC00FCB938 /* Pixelator.swift in Sources */,
+				AA0CD7E31E2544EC00FCB938 /* Crystalizer.swift in Sources */,
+				AA0CD7DF1E2544EC00FCB938 /* MaskFilter.swift in Sources */,
+				AA0CD7E41E2544EC00FCB938 /* ObscureFilter.swift in Sources */,
+				AA0CD7ED1E2544EC00FCB938 /* SpinAnimate.swift in Sources */,
+				AA0CD7E91E2544EC00FCB938 /* CoordConverter.swift in Sources */,
+				AA0CD7EF1E2544EC00FCB938 /* BoxView.swift in Sources */,
+				AA0CD7DE1E2544EC00FCB938 /* GradientMask.swift in Sources */,
+				AA0CD7E81E2544EC00FCB938 /* TextFramer.swift in Sources */,
+				AA0CD7DC1E2544EC00FCB938 /* MaskFeature.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
