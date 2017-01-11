@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TextDetector: BaseDetector {
+public class TextDetector: BaseDetector {
     
     public var textBlocks:[CIFeature]!
     
@@ -20,7 +20,7 @@ class TextDetector: BaseDetector {
         return textBlocks
     }
     
-    override internal func detect(_ image:CIImage) {
+    override public func detect(_ image:CIImage) {
         textBlocks = detector.features(in: image)
     }
     

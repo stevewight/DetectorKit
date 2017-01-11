@@ -8,16 +8,16 @@
 
 import UIKit
 
-class BaseFramer: NSObject {
+public class BaseFramer: NSObject {
 
+    public var shapeColor:UIColor = UIColor.red
+    public var borderWidth:Double = 3.0
     var imageView:UIImageView!
     var coreImage:CIImage!
-    var shapeColor:UIColor = UIColor.red
-    var borderWidth:Double = 3.0
     var detector:BaseDetector!
     var converter:CoordConverter!
     
-    init(_ inputImageView:UIImageView) {
+    public init(_ inputImageView:UIImageView) {
         super.init()
         imageView = inputImageView
         coreImage = CIImage(image: imageView.image!)

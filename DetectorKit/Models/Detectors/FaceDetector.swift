@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FaceDetector: BaseDetector {
+public class FaceDetector: BaseDetector {
 
     public var faces:[CIFeature]!
     public var detectBlink:Bool = false
@@ -29,7 +29,7 @@ class FaceDetector: BaseDetector {
         ] as [String : Any]
     }
     
-    override internal func detect(_ image:CIImage) {
+    override public func detect(_ image:CIImage) {
         let options:[String:Bool] = [
             CIDetectorSmile: detectSmile,
             CIDetectorEyeBlink: detectBlink

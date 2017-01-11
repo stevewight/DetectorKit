@@ -8,9 +8,9 @@
 
 import UIKit
 
-class TextFramer: BaseFramer {
+public class TextFramer: BaseFramer {
     
-    override init(_ imageView:UIImageView) {
+    public override init(_ imageView:UIImageView) {
         super.init(imageView)
         detector = TextDetector(coreImage)
     }

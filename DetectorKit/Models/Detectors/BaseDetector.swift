@@ -8,7 +8,7 @@
 
 import UIKit
 
-class BaseDetector: NSObject {
+public class BaseDetector: NSObject {
     
     var detector:CIDetector!
     

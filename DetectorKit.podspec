@@ -7,10 +7,10 @@ Pod::Spec.new do |s|
   s.homepage     = "http://www.github.com/stevewight/DetectorKit"
   s.license      = "MIT"
   s.license      = { :type => "MIT", :file => "LICENSE" }
-  s.author             = { "Steve Wight" => "stevendouglaswight@gmail.com" }
+  s.author       = { "Steve Wight" => "stevendouglaswight@gmail.com" }
   s.platform     = :ios, "10.0"
   s.source       = { :path => "" }
-  s.source_files  = "DetectorKit", "DetectorKit/**/*.{h,m}"
+  s.source_files = "DetectorKit/**/*.{h,m,swift}"
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3' }
 
 end

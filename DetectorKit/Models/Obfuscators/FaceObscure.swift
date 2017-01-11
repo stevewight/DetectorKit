@@ -8,9 +8,9 @@
 
 import UIKit
 
-class FaceObscure: BaseObscure {
+public class FaceObscure: BaseObscure {
     
-    init(_ image:UIImage) {
+    public init(_ image:UIImage) {
         super.init()
         coreImage = CIImage(image: image)
         detector = FaceDetector(coreImage)

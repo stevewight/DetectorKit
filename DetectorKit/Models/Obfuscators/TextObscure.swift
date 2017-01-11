@@ -8,9 +8,9 @@
 
 import UIKit
 
-class TextObscure: BaseObscure {
+public class TextObscure: BaseObscure {
     
-    init(_ image:UIImage) {
+    public init(_ image:UIImage) {
         super.init()
         coreImage = CIImage(image: image)
         detector = TextDetector(coreImage)

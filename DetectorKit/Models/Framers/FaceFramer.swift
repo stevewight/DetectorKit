@@ -8,9 +8,9 @@
 
 import UIKit
 
-class FaceFramer: BaseFramer {
+public class FaceFramer: BaseFramer {
 
-    override init(_ imageView:UIImageView) {
+    public override init(_ imageView:UIImageView) {
         super.init(imageView)
         detector = FaceDetector(coreImage)
     }

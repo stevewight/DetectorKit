@@ -8,7 +8,7 @@
 
 import UIKit
 
-class BaseObscure: NSObject {
+public class BaseObscure: NSObject {
 
     var coreImage:CIImage!
     var obscureFilter:ObscureFilter!
