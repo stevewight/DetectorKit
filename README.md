@@ -25,6 +25,8 @@ $ pod install
 
 ![uml diagram of DetectorKits object model](https://github.com/stevewight/DetectorKit/blob/master/images/detector_kit-uml.png)
 
+The light gray boxes at the top of the architecture diagram above are the public interface into DetectorKit.  Through these you can easily access the core features of detecting, framing and obfuscating faces and text within images.
+
 ## Usage
 
 ### Detecting
@@ -55,6 +57,8 @@ faceFramer.radial()
 faceFramer.shapeColor = UIColor.red
 faceFramer.borderWidth = 2.0
 ```
+![](https://github.com/stevewight/DetectorKit/blob/master/images/box-frame.gif)
+![](https://github.com/stevewight/DetectorKit/blob/master/images/radial-frame.gif)
 
 ### Obfuscating
 #### Faces
