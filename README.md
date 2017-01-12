@@ -72,6 +72,6 @@ faceObscure.pixelate()
 // or use a crystalize filter
 faceObscure.crystalize()
 ```
-![](https://github.com/stevewight/DetectorKit/blob/master/images/pixelate.png)
-![](https://github.com/stevewight/DetectorKit/blob/master/images/crystalize.png)
+![Faces pixelated](https://github.com/stevewight/DetectorKit/blob/master/images/pixelate-faces.png)
+![Faces crystalized](https://github.com/stevewight/DetectorKit/blob/master/images/crystalize-faces.png)
 
