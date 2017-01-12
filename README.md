@@ -21,6 +21,7 @@ Then, run the following command:
 $ pod install
 ```
 
+
 ## Architecture
 
 ![uml diagram of DetectorKits object model](https://github.com/stevewight/DetectorKit/blob/master/images/detector_kit-uml.png)
@@ -71,3 +72,6 @@ faceObscure.pixelate()
 // or use a crystalize filter
 faceObscure.crystalize()
 ```
+![](https://github.com/stevewight/DetectorKit/blob/master/images/pixelate.png)
+![](https://github.com/stevewight/DetectorKit/blob/master/images/crystalize.png)
+
