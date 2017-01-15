@@ -75,6 +75,10 @@ faceObscure.crystalize()
 ![Faces pixelated](https://github.com/stevewight/DetectorKit/blob/master/images/pixelate-faces.png)
 ![Faces crystalized](https://github.com/stevewight/DetectorKit/blob/master/images/crystalize-faces.png)
 
+## Example
+
+For an example app implementing the above usage, take a look at [Sherlock](https://github.com/stevewight/Sherlock)
+
 ## License
 
-DuoKit is released under the ***MIT*** license. See LICENSE for details.
+DetectorKit is released under the ***MIT*** license. See LICENSE for details.
