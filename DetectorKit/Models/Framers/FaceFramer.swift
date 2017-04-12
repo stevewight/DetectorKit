@@ -19,4 +19,8 @@ public class FaceFramer: BaseFramer {
         buildRadials(features: detector.features())
     }
     
+    public func pulse() {
+        buildPulses(features: detector.features())
+    }
+    
 }

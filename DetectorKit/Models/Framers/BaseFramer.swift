@@ -31,6 +31,12 @@ public class BaseFramer: NSObject {
         buildBoxes(features: detector.features())
     }
     
+    internal func buildPulses(features:[CIFeature]) {
+        for feature in features {
+            addPulse(feature: feature)
+        }
+    }
+    
     internal func buildBoxes(features:[CIFeature]) {
         for feature in features {
             addFrame(feature: feature)
@@ -41,6 +47,16 @@ public class BaseFramer: NSObject {
         for feature in features {
             addRadial(feature: feature)
         }
+    }
+    
+    private func addPulse(feature:CIFeature) {
+        let newFrame = converter.convert(feature.bounds)
+        let pulseView = PulseView(
+            frame: newFrame,
+            color: shapeColor.cgColor,
+            width: borderWidth
+        )
+        imageView.addSubview(pulseView)
     }
     
     private func addFrame(feature:CIFeature) {

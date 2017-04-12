@@ -33,6 +33,7 @@
 		AA0CD7EE1E2544EC00FCB938 /* BaseFrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0CD7D51E2544EC00FCB938 /* BaseFrameView.swift */; };
 		AA0CD7EF1E2544EC00FCB938 /* BoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0CD7D61E2544EC00FCB938 /* BoxView.swift */; };
 		AA0CD7F01E2544EC00FCB938 /* RadialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0CD7D71E2544EC00FCB938 /* RadialView.swift */; };
+		AA515FD91E9ECBD8006FFD80 /* PulseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA515FD81E9ECBD8006FFD80 /* PulseView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,7 @@
 		AA0CD7D51E2544EC00FCB938 /* BaseFrameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseFrameView.swift; sourceTree = "<group>"; };
 		AA0CD7D61E2544EC00FCB938 /* BoxView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoxView.swift; sourceTree = "<group>"; };
 		AA0CD7D71E2544EC00FCB938 /* RadialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadialView.swift; sourceTree = "<group>"; };
+		AA515FD81E9ECBD8006FFD80 /* PulseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PulseView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +197,7 @@
 				AA0CD7D51E2544EC00FCB938 /* BaseFrameView.swift */,
 				AA0CD7D61E2544EC00FCB938 /* BoxView.swift */,
 				AA0CD7D71E2544EC00FCB938 /* RadialView.swift */,
+				AA515FD81E9ECBD8006FFD80 /* PulseView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -311,6 +314,7 @@
 				AA0CD7EF1E2544EC00FCB938 /* BoxView.swift in Sources */,
 				AA0CD7DE1E2544EC00FCB938 /* GradientMask.swift in Sources */,
 				AA0CD7E81E2544EC00FCB938 /* TextFramer.swift in Sources */,
+				AA515FD91E9ECBD8006FFD80 /* PulseView.swift in Sources */,
 				AA0CD7DC1E2544EC00FCB938 /* MaskFeature.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -474,6 +478,7 @@
 				AA0CD7B31E2541D000FCB938 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
