@@ -14,6 +14,7 @@ class PulseView: BaseFrameView {
 
     override internal func setUp() {
         setUpCircle()
+        setUpAnimations()
     }
     
     private func setUpCircle() {
@@ -21,6 +22,15 @@ class PulseView: BaseFrameView {
         baseLayer.path = createPath(baseLayer,0)
         layer.addSublayer(baseLayer)
         circles.insert(baseLayer, at:0)
+    }
+    
+    private func setUpAnimations() {
+        pulse(circles[0])
+    }
+    
+    private func pulse(_ circle:CAShapeLayer) {
+        let animation = CirclePulseAnimate(circle)
+        animation.pulse()
     }
     
     private func createCircle()->CAShapeLayer {
