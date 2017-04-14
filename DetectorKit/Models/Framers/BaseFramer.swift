@@ -31,6 +31,12 @@ public class BaseFramer: NSObject {
         buildBoxes(features: detector.features())
     }
     
+    internal func buildBoxRotate(features:[CIFeature]) {
+        for feature in features {
+            addBoxRotate(feature: feature)
+        }
+    }
+    
     internal func buildPulses(features:[CIFeature]) {
         for feature in features {
             addPulse(feature: feature)
@@ -57,6 +63,16 @@ public class BaseFramer: NSObject {
             width: borderWidth
         )
         imageView.addSubview(pulseView)
+    }
+    
+    private func addBoxRotate(feature:CIFeature) {
+        let newFrame = converter.convert(feature.bounds)
+        let boxRotateView = BoxRotateView(
+            frame: newFrame,
+            color: shapeColor.cgColor,
+            width: borderWidth
+        )
+        imageView.addSubview(boxRotateView)
     }
     
     private func addFrame(feature:CIFeature) {

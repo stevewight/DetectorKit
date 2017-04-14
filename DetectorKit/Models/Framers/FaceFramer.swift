@@ -23,4 +23,8 @@ public class FaceFramer: BaseFramer {
         buildPulses(features: detector.features())
     }
     
+    public func boxRotate() {
+        buildBoxRotate(features: detector.features())
+    }
+    
 }

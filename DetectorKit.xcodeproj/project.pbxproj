@@ -35,6 +35,8 @@
 		AA0CD7F01E2544EC00FCB938 /* RadialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0CD7D71E2544EC00FCB938 /* RadialView.swift */; };
 		AA515FD91E9ECBD8006FFD80 /* PulseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA515FD81E9ECBD8006FFD80 /* PulseView.swift */; };
 		AA515FDB1E9EE88F006FFD80 /* CirclePulseAnimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA515FDA1E9EE88F006FFD80 /* CirclePulseAnimate.swift */; };
+		AA515FDD1EA0DE13006FFD80 /* BoxRotateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA515FDC1EA0DE13006FFD80 /* BoxRotateView.swift */; };
+		AA515FDF1EA0EDCC006FFD80 /* BoxRotateAnimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA515FDE1EA0EDCC006FFD80 /* BoxRotateAnimate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +70,8 @@
 		AA0CD7D71E2544EC00FCB938 /* RadialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadialView.swift; sourceTree = "<group>"; };
 		AA515FD81E9ECBD8006FFD80 /* PulseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PulseView.swift; sourceTree = "<group>"; };
 		AA515FDA1E9EE88F006FFD80 /* CirclePulseAnimate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CirclePulseAnimate.swift; sourceTree = "<group>"; };
+		AA515FDC1EA0DE13006FFD80 /* BoxRotateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoxRotateView.swift; sourceTree = "<group>"; };
+		AA515FDE1EA0EDCC006FFD80 /* BoxRotateAnimate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoxRotateAnimate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +204,7 @@
 				AA0CD7D61E2544EC00FCB938 /* BoxView.swift */,
 				AA0CD7D71E2544EC00FCB938 /* RadialView.swift */,
 				AA515FD81E9ECBD8006FFD80 /* PulseView.swift */,
+				AA515FDC1EA0DE13006FFD80 /* BoxRotateView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -209,6 +214,7 @@
 			children = (
 				AA0CD7D41E2544EC00FCB938 /* SpinAnimate.swift */,
 				AA515FDA1E9EE88F006FFD80 /* CirclePulseAnimate.swift */,
+				AA515FDE1EA0EDCC006FFD80 /* BoxRotateAnimate.swift */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -298,6 +304,7 @@
 				AA0CD7D91E2544EC00FCB938 /* FaceDetector.swift in Sources */,
 				AA0CD7E61E2544EC00FCB938 /* BaseFramer.swift in Sources */,
 				AA515FDB1E9EE88F006FFD80 /* CirclePulseAnimate.swift in Sources */,
+				AA515FDD1EA0DE13006FFD80 /* BoxRotateView.swift in Sources */,
 				AA0CD7DD1E2544EC00FCB938 /* BlendMask.swift in Sources */,
 				AA0CD7EA1E2544EC00FCB938 /* BaseObscure.swift in Sources */,
 				AA0CD7DA1E2544EC00FCB938 /* TextDetector.swift in Sources */,
@@ -305,6 +312,7 @@
 				AA0CD7DB1E2544EC00FCB938 /* Masker.swift in Sources */,
 				AA0CD7EC1E2544EC00FCB938 /* TextObscure.swift in Sources */,
 				AA0CD7E11E2544EC00FCB938 /* RadialGradient.swift in Sources */,
+				AA515FDF1EA0EDCC006FFD80 /* BoxRotateAnimate.swift in Sources */,
 				AA0CD7E71E2544EC00FCB938 /* FaceFramer.swift in Sources */,
 				AA0CD7E01E2544EC00FCB938 /* OverComp.swift in Sources */,
 				AA0CD7F01E2544EC00FCB938 /* RadialView.swift in Sources */,
