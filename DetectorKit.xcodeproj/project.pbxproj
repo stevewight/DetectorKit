@@ -29,7 +29,7 @@
 		AA0CD7EA1E2544EC00FCB938 /* BaseObscure.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0CD7CF1E2544EC00FCB938 /* BaseObscure.swift */; };
 		AA0CD7EB1E2544EC00FCB938 /* FaceObscure.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0CD7D01E2544EC00FCB938 /* FaceObscure.swift */; };
 		AA0CD7EC1E2544EC00FCB938 /* TextObscure.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0CD7D11E2544EC00FCB938 /* TextObscure.swift */; };
-		AA0CD7ED1E2544EC00FCB938 /* SpinAnimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0CD7D41E2544EC00FCB938 /* SpinAnimate.swift */; };
+		AA0CD7ED1E2544EC00FCB938 /* CircleSpinAnimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0CD7D41E2544EC00FCB938 /* CircleSpinAnimate.swift */; };
 		AA0CD7EE1E2544EC00FCB938 /* BaseFrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0CD7D51E2544EC00FCB938 /* BaseFrameView.swift */; };
 		AA0CD7EF1E2544EC00FCB938 /* BoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0CD7D61E2544EC00FCB938 /* BoxView.swift */; };
 		AA0CD7F01E2544EC00FCB938 /* RadialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0CD7D71E2544EC00FCB938 /* RadialView.swift */; };
@@ -65,7 +65,7 @@
 		AA0CD7CF1E2544EC00FCB938 /* BaseObscure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseObscure.swift; sourceTree = "<group>"; };
 		AA0CD7D01E2544EC00FCB938 /* FaceObscure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceObscure.swift; sourceTree = "<group>"; };
 		AA0CD7D11E2544EC00FCB938 /* TextObscure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextObscure.swift; sourceTree = "<group>"; };
-		AA0CD7D41E2544EC00FCB938 /* SpinAnimate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinAnimate.swift; sourceTree = "<group>"; };
+		AA0CD7D41E2544EC00FCB938 /* CircleSpinAnimate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleSpinAnimate.swift; sourceTree = "<group>"; };
 		AA0CD7D51E2544EC00FCB938 /* BaseFrameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseFrameView.swift; sourceTree = "<group>"; };
 		AA0CD7D61E2544EC00FCB938 /* BoxView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoxView.swift; sourceTree = "<group>"; };
 		AA0CD7D71E2544EC00FCB938 /* RadialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadialView.swift; sourceTree = "<group>"; };
@@ -214,7 +214,7 @@
 		AA0CD7D31E2544EC00FCB938 /* Animations */ = {
 			isa = PBXGroup;
 			children = (
-				AA0CD7D41E2544EC00FCB938 /* SpinAnimate.swift */,
+				AA0CD7D41E2544EC00FCB938 /* CircleSpinAnimate.swift */,
 				AA515FDA1E9EE88F006FFD80 /* CirclePulseAnimate.swift */,
 				AA515FDE1EA0EDCC006FFD80 /* BoxRotateAnimate.swift */,
 				AA515FE01EA4D009006FFD80 /* BoxPulseAnimate.swift */,
@@ -325,7 +325,7 @@
 				AA0CD7E31E2544EC00FCB938 /* Crystalizer.swift in Sources */,
 				AA0CD7DF1E2544EC00FCB938 /* MaskFilter.swift in Sources */,
 				AA0CD7E41E2544EC00FCB938 /* ObscureFilter.swift in Sources */,
-				AA0CD7ED1E2544EC00FCB938 /* SpinAnimate.swift in Sources */,
+				AA0CD7ED1E2544EC00FCB938 /* CircleSpinAnimate.swift in Sources */,
 				AA0CD7E91E2544EC00FCB938 /* CoordConverter.swift in Sources */,
 				AA0CD7EF1E2544EC00FCB938 /* BoxView.swift in Sources */,
 				AA0CD7DE1E2544EC00FCB938 /* GradientMask.swift in Sources */,

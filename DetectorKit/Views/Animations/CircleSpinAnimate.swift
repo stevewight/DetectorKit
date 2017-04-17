@@ -1,5 +1,5 @@
 //
-//  SpinAnimate.swift
+//  CircleSpinAnimate.swift
 //  Sherlock
 //
 //  Created by Steve on 12/10/16.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SpinAnimate: NSObject {
+class CircleSpinAnimate: NSObject {
     
     var circle:CAShapeLayer!
     

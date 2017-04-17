@@ -19,12 +19,12 @@ class RadialView: BaseFrameView {
     }
     
     private func complexSpin(_ circle:CAShapeLayer) {
-        let animation = SpinAnimate(circle)
+        let animation = CircleSpinAnimate(circle)
         animation.complex()
     }
     
     private func spin(_ circle:CAShapeLayer) {
-        let animation = SpinAnimate(circle)
+        let animation = CircleSpinAnimate(circle)
         animation.rotate()
     }
     
