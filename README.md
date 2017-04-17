@@ -81,6 +81,13 @@ faceObscure.pixelate()
 // or use a crystalize filter
 faceObscure.crystalize()
 ```
-![](https://github.com/stevewight/DetectorKit/blob/master/images/pixelate.png)
-![](https://github.com/stevewight/DetectorKit/blob/master/images/crystalize.png)
+![Faces pixelated](https://github.com/stevewight/DetectorKit/blob/master/images/pixelate-faces.png)
+![Faces crystalized](https://github.com/stevewight/DetectorKit/blob/master/images/crystalize-faces.png)
 
+## Example
+
+For an example app implementing the above usage, take a look at [Sherlock](https://github.com/stevewight/Sherlock)
+
+## License
+
+DetectorKit is released under the ***MIT*** license. See LICENSE for details.
