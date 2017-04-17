@@ -48,18 +48,27 @@ let detector = faceDetector.detector
 ```swift
 let faceFramer = FaceFramer(imageView)
 
+// Change color and borderWidth 
+// Note: borderWidth only works for box() and radial()
+faceFramer.shapeColor = UIColor.red
+faceFramer.borderWidth = 2.0
+
 // Frame faces with a rectangle
 faceFramer.box()
 
 // or with a radial frame
 faceFramer.radial()
 
-// change shape and color before .box() or .radial() call
-faceFramer.shapeColor = UIColor.red
-faceFramer.borderWidth = 2.0
+// or with a pulsing circle
+faceFramer.pulse()
+
+// or with rotating boxes
+faceFramer.boxRotate()
 ```
 ![](https://github.com/stevewight/DetectorKit/blob/master/images/box-frame.gif)
 ![](https://github.com/stevewight/DetectorKit/blob/master/images/radial-frame.gif)
+![](https://github.com/stevewight/DetectorKit/blob/master/images/pulse-frame.gif)
+![](https://github.com/stevewight/DetectorKit/blob/master/images/box-rotate-frame.gif)
 
 ### Obfuscating
 #### Faces
