@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
 
   s.name         = "DetectorKit"
-  s.version      = "0.0.1"
-  s.summary      = "Simple object detection, framing and obfuscation"
+  s.version      = "0.0.2"
+  s.summary      = "Simple image object detection, framing and obfuscation"
   s.description  = "Easily add object detection framing the obfuscation to images"
   s.homepage     = "http://www.github.com/stevewight"
   s.license      = "MIT"
