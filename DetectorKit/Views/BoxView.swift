@@ -19,12 +19,12 @@ class BoxView: BaseFrameView {
     }
     
     private func pulse(_ shape:CAShapeLayer) {
-        let animation = SpinAnimate(shape)
+        let animation = BoxPulseAnimate(shape)
         animation.pulse()
     }
     
     private func slowPulse(_ shape:CAShapeLayer) {
-        let animation = SpinAnimate(shape)
+        let animation = BoxPulseAnimate(shape)
         animation.slowPulse()
     }
     

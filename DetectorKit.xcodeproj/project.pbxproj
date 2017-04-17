@@ -37,6 +37,7 @@
 		AA515FDB1E9EE88F006FFD80 /* CirclePulseAnimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA515FDA1E9EE88F006FFD80 /* CirclePulseAnimate.swift */; };
 		AA515FDD1EA0DE13006FFD80 /* BoxRotateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA515FDC1EA0DE13006FFD80 /* BoxRotateView.swift */; };
 		AA515FDF1EA0EDCC006FFD80 /* BoxRotateAnimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA515FDE1EA0EDCC006FFD80 /* BoxRotateAnimate.swift */; };
+		AA515FE11EA4D009006FFD80 /* BoxPulseAnimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA515FE01EA4D009006FFD80 /* BoxPulseAnimate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +73,7 @@
 		AA515FDA1E9EE88F006FFD80 /* CirclePulseAnimate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CirclePulseAnimate.swift; sourceTree = "<group>"; };
 		AA515FDC1EA0DE13006FFD80 /* BoxRotateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoxRotateView.swift; sourceTree = "<group>"; };
 		AA515FDE1EA0EDCC006FFD80 /* BoxRotateAnimate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoxRotateAnimate.swift; sourceTree = "<group>"; };
+		AA515FE01EA4D009006FFD80 /* BoxPulseAnimate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoxPulseAnimate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,6 +217,7 @@
 				AA0CD7D41E2544EC00FCB938 /* SpinAnimate.swift */,
 				AA515FDA1E9EE88F006FFD80 /* CirclePulseAnimate.swift */,
 				AA515FDE1EA0EDCC006FFD80 /* BoxRotateAnimate.swift */,
+				AA515FE01EA4D009006FFD80 /* BoxPulseAnimate.swift */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -318,6 +321,7 @@
 				AA0CD7F01E2544EC00FCB938 /* RadialView.swift in Sources */,
 				AA0CD7D81E2544EC00FCB938 /* BaseDetector.swift in Sources */,
 				AA0CD7E51E2544EC00FCB938 /* Pixelator.swift in Sources */,
+				AA515FE11EA4D009006FFD80 /* BoxPulseAnimate.swift in Sources */,
 				AA0CD7E31E2544EC00FCB938 /* Crystalizer.swift in Sources */,
 				AA0CD7DF1E2544EC00FCB938 /* MaskFilter.swift in Sources */,
 				AA0CD7E41E2544EC00FCB938 /* ObscureFilter.swift in Sources */,

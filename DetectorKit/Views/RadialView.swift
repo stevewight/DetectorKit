@@ -28,11 +28,6 @@ class RadialView: BaseFrameView {
         animation.rotate()
     }
     
-    private func pulse(_ circle:CAShapeLayer) {
-        let animation = SpinAnimate(circle)
-        animation.pulse()
-    }
-    
     private func setUpRings() {
         setUpRing(0)
         setUpRing(1)

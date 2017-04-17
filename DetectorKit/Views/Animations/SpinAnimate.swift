@@ -27,14 +27,6 @@ class SpinAnimate: NSObject {
         circle.add(rotateClockwise(), forKey: "rotateClockwise")
     }
     
-    public func pulse() {
-        circle.add(heartBeat(), forKey: "pulse")
-    }
-    
-    public func slowPulse() {
-        circle.add(slowHeartBeat(), forKey: "snap")
-    }
-    
     private func endAnimation()->CAAnimation {
         let animation = CABasicAnimation(keyPath: "strokeEnd")
         animation.fromValue = 0
@@ -61,24 +53,6 @@ class SpinAnimate: NSObject {
         animation.fromValue = 0
         animation.toValue = M_PI * 2
         animation.duration = 4
-        animation.repeatCount = MAXFLOAT
-        return animation
-    }
-    
-    private func heartBeat()->CAAnimation {
-        let animation = CABasicAnimation(keyPath: "transform.scale")
-        animation.fromValue = 0.0
-        animation.toValue = 1.0
-        animation.duration = 0.6
-        animation.repeatCount = MAXFLOAT
-        return animation
-    }
-    
-    private func slowHeartBeat()->CAAnimation {
-        let animation = CABasicAnimation(keyPath: "transform.scale")
-        animation.fromValue = 0.7
-        animation.toValue = 1.1
-        animation.duration = 1.8
         animation.repeatCount = MAXFLOAT
         return animation
     }
