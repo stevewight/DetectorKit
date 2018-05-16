@@ -19,7 +19,7 @@ class RectGradient: GradientMask {
     
     override public func output() -> CIImage {
         let outImage = filter.outputImage!
-        return outImage.cropping(to: bounds)
+        return outImage.cropped(to: bounds)
     }
     
     private func setFilter() {

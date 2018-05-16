@@ -51,7 +51,7 @@ class CircleSpinAnimate: NSObject {
     private func rotateClockwise()->CAAnimation {
         let animation = CABasicAnimation(keyPath: "transform.rotation.z")
         animation.fromValue = 0
-        animation.toValue = M_PI * 2
+        animation.toValue = Double.pi * 2
         animation.duration = 4
         animation.repeatCount = MAXFLOAT
         return animation

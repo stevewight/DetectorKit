@@ -61,15 +61,15 @@ class RadialView: BaseFrameView {
     }
     
     private func createPath(_ circle:CAShapeLayer,_ index:Int)->CGPath {
-        let startAngel = CGFloat(-M_PI_2)
-        let endAngel = startAngel + CGFloat(M_PI * 2)
+        let startAngel = -(Double.pi/2)
+        let endAngel = startAngel + (Double.pi * 2)
         let circleWidth = circle.bounds.size.width
         
         return UIBezierPath(
             arcCenter: circle.position,
             radius: radius(index, width: circleWidth),
-            startAngle: startAngel,
-            endAngle: endAngel,
+            startAngle: CGFloat(startAngel),
+            endAngle: CGFloat(endAngel),
             clockwise: true
             ).cgPath
     }
