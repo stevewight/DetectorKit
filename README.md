@@ -1,5 +1,5 @@
 # DetectorKit
-Easy object detection, framing and obfuscation for **_Swift 3_**
+Easy object detection, framing and obfuscation with Swift
 
 ## Installation
 The easiest way the use DetectorKit is with CocoaPods
