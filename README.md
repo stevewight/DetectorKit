@@ -1,30 +1,9 @@
 # DetectorKit
 Easy object detection, framing and obfuscation with Swift
 
-## Installation
-The easiest way the use DetectorKit is with CocoaPods
-
-### Installation with CocoaPods
-To integrate DetectorKit into your Xcode project using CocoaPods, specify it in your `Podfile`
-
-```ruby
-platform :ios, '10.0'
-
-target 'TargetName' do
-  pod 'DetectorKit', :git => 'https://github.com/stevewight/DetectorKit.git
-end
-```
-
-Then, run the following command:
-
-```bash
-$ pod install
-```
-
-
 ## Architecture
 
-![uml diagram of DetectorKits object model](https://github.com/stevewight/DetectorKit/blob/master/images/v002-architecture.png)
+![uml diagram of DetectorKits object model](https://raw.githubusercontent.com/stevewight/DetectorKit/master/images/v002-architecture.png)
 
 The light gray boxes at the top of the architecture diagram above are the public interface into DetectorKit.  Through these you can easily access the core features of detecting, framing and obfuscating faces and text within images.
 
@@ -65,10 +44,10 @@ faceFramer.pulse()
 // or with rotating boxes
 faceFramer.boxRotate()
 ```
-![](https://github.com/stevewight/DetectorKit/blob/master/images/box-frame.gif)
-![](https://github.com/stevewight/DetectorKit/blob/master/images/radial-frame.gif)
-![](https://github.com/stevewight/DetectorKit/blob/master/images/pulse-frame.gif)
-![](https://github.com/stevewight/DetectorKit/blob/master/images/box-rotate-frame.gif)
+![](https://raw.githubusercontent.com/stevewight/DetectorKit/master/images/box-frame.gif)
+![](https://raw.githubusercontent.com/stevewight/DetectorKit/master/images/radial-frame.gif)
+![](https://raw.githubusercontent.com/stevewight/DetectorKit/master/images/pulse-frame.gif)
+![](https://raw.githubusercontent.com/stevewight/DetectorKit/master/images/box-rotate-frame.gif)
 
 ### Obfuscating
 #### Faces
@@ -81,8 +60,28 @@ faceObscure.pixelate()
 // or use a crystalize filter
 faceObscure.crystalize()
 ```
-![Faces pixelated](https://github.com/stevewight/DetectorKit/blob/master/images/pixelate-faces.png)
-![Faces crystalized](https://github.com/stevewight/DetectorKit/blob/master/images/crystalize-faces.png)
+![Faces pixelated](https://raw.githubusercontent.com/stevewight/DetectorKit/master/images/pixelate-faces.png)
+![Faces crystalized](https://raw.githubusercontent.com/stevewight/DetectorKit/master/images/crystalize-faces.png)
+
+## Installation
+The easiest way the use DetectorKit is with CocoaPods
+
+### Installation with CocoaPods
+To integrate DetectorKit into your Xcode project using CocoaPods, specify it in your `Podfile`
+
+```ruby
+platform :ios, '10.0'
+
+target 'TargetName' do
+  pod 'DetectorKit'
+end
+```
+
+Then, run the following command:
+
+```bash
+$ pod install
+```
 
 ## Example
 
