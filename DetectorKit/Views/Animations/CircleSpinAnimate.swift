@@ -32,7 +32,7 @@ class CircleSpinAnimate: NSObject {
         animation.fromValue = 0
         animation.toValue = 1
         animation.duration = 2
-        animation.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut)
+        animation.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeInEaseOut)
         
         return addToGroup(animation)
     }
@@ -43,7 +43,7 @@ class CircleSpinAnimate: NSObject {
         animation.fromValue = 0
         animation.toValue = 1
         animation.duration = 2
-        animation.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut)
+        animation.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeInEaseOut)
         
         return addToGroup(animation)
     }

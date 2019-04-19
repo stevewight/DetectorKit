@@ -266,7 +266,7 @@
 					AA0CD7A81E2541D000FCB938 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 47V5P5JJNR;
-						LastSwiftMigration = 0930;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -276,6 +276,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = AA0CD79F1E2541CF00FCB938;
@@ -471,8 +472,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = sw.DetectorKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -491,8 +491,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = sw.DetectorKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};

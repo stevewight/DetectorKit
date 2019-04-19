@@ -26,7 +26,7 @@ class CirclePulseAnimate: NSObject {
         group.animations = [scaleAnimation(), opacityAnimation()]
         group.duration = 0.6
         group.timingFunction = CAMediaTimingFunction(
-            name: kCAMediaTimingFunctionEaseInEaseOut
+            name: CAMediaTimingFunctionName.easeInEaseOut
         )
         group.repeatCount = MAXFLOAT
         return group

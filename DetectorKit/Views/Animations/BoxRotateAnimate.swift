@@ -27,7 +27,7 @@ class BoxRotateAnimate: NSObject {
     
     private func rotateAnimation()->CAAnimation {
         let timeFunc = CAMediaTimingFunction(
-            name: kCAMediaTimingFunctionEaseInEaseOut
+            name: CAMediaTimingFunctionName.easeInEaseOut
         )
         let time = CACurrentMediaTime()
         let animation = CAKeyframeAnimation(keyPath: "transform")
